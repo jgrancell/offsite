@@ -1,0 +1,12 @@
+.scannerwork
+
+# Files
+cover.out
+coverage.txt
+gosec-report.json
+offsite
+
+# Directories
+packaging/binaries
+testdata/*/*.txt
+testdata/*/*.file
