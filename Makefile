@@ -25,6 +25,7 @@ package: binaries
 test:
 	rm -f coverage.txt profile.out
 	rm -f gosec-report.json
+	rm -f testdata/configuration/offsite.conf
 	/bin/sh go.test.sh
 
 test-sonarqube: test

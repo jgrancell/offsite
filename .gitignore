@@ -5,8 +5,10 @@ cover.out
 coverage.txt
 gosec-report.json
 offsite
+offsite.conf
 
 # Directories
 packaging/binaries
 testdata/*/*.txt
 testdata/*/*.file
+testdata/*/*.conf
